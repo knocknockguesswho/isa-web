@@ -1,0 +1,71 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+.side-bar {
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .side-bar {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    right: 0;
+    display: block;
+    background-color: white;
+    z-index: 9;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    overflow: hidden;
+  }
+  .side-bar-item-navigation {
+    padding: 40px 0;
+  }
+  .hamburger-button {
+    cursor: pointer;
+    z-index: 12;
+  }
+  .hamburger-button div {
+    height: 6px;
+    width: 35px;
+    margin: 5px 0px;
+    background-color: #2D2F44;
+    border-radius: .2em;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .side-bar {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    right: 0;
+    display: block;
+    background-color: white;
+    z-index: 9;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    overflow: hidden;
+  }
+  .side-bar-item-navigation {
+    padding: 40px 0;
+  }
+  .hamburger-button {
+    cursor: pointer;
+    z-index: 12;
+  }
+  .hamburger-button div {
+    height: 4px;
+    width: 28px;
+    margin: 3px 0px;
+    background-color: #2D2F44;
+    border-radius: .2em;
+  }
+}
+/*# sourceMappingURL=Sidebar.css.map */

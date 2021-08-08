@@ -1,0 +1,288 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+.careers-main-title {
+  padding: 30px 140px 0 140px;
+  color: #2D2F44;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.brochure-point {
+  width: 100%;
+}
+
+.brochure-point-title {
+  width: 470px;
+  height: 62px;
+  background-color: #4488C1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 140px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.brochure-point-title p {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.brochure-point-content {
+  width: 1066px;
+  margin-left: 140px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #2D2F44;
+}
+
+.brochure-point-content h5 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #2D2F44;
+  margin: 0;
+}
+
+.brochure-point-content img {
+  margin: 50px 0px;
+}
+
+.brochure-point-content-with-subtitle {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 1400px) {
+  .careers-main {
+    overflow: hidden;
+  }
+  .careers-main-title {
+    padding: 30px 80px 0 80px;
+    color: #2D2F44;
+    font-weight: 600;
+    font-size: 50px;
+  }
+  .brochure-point {
+    width: 100%;
+  }
+  .brochure-point-title {
+    width: 420px;
+    height: 62px;
+    background-color: #4488C1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 80px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .brochure-point-title p {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+  }
+  .brochure-point-content {
+    width: 992px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2D2F44;
+  }
+  .brochure-point-content h5 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #2D2F44;
+    margin: 0;
+  }
+  .brochure-point-content img {
+    margin: 50px 0px;
+  }
+  .brochure-point-content-with-subtitle {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .careers-main {
+    overflow: hidden;
+  }
+  .careers-main-title {
+    padding: 30px 50px 0 50px;
+    color: #2D2F44;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .brochure-point {
+    width: 100%;
+  }
+  .brochure-point-title {
+    width: 420px;
+    height: 62px;
+    background-color: #4488C1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 50px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .brochure-point-title p {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+  }
+  .brochure-point-content {
+    width: 850px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2D2F44;
+  }
+  .brochure-point-content h5 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #2D2F44;
+    margin: 0;
+  }
+  .brochure-point-content img {
+    margin: 50px 0px;
+  }
+  .brochure-point-content-with-subtitle {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 850px) {
+  .careers-main {
+    overflow: hidden;
+  }
+  .careers-main-title {
+    padding: 30px 40px 0 40px;
+    color: #2D2F44;
+    font-weight: 600;
+    font-size: 50px;
+  }
+  .brochure-point {
+    width: 100%;
+  }
+  .brochure-point-title {
+    width: 320px;
+    height: 62px;
+    background-color: #4488C1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 40px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .brochure-point-title p {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+  }
+  .brochure-point-content {
+    width: 576px;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2D2F44;
+  }
+  .brochure-point-content h5 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #2D2F44;
+    margin: 0;
+  }
+  .brochure-point-content img {
+    margin: 50px 0px;
+  }
+  .brochure-point-content-with-subtitle {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  .careers-main {
+    overflow: hidden;
+  }
+  .careers-main-title {
+    padding: 30px 30px 0 30px;
+    color: #2D2F44;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .brochure-point {
+    width: 100%;
+  }
+  .brochure-point-title {
+    width: 320px;
+    height: 62px;
+    background-color: #4488C1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 30px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .brochure-point-title p {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+  }
+  .brochure-point-content {
+    width: 330px;
+    margin: 50px auto 0 auto;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2D2F44;
+  }
+  .brochure-point-content h5 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #2D2F44;
+    margin: 0;
+  }
+  .brochure-point-content img {
+    margin: 50px 0px;
+  }
+  .brochure-point-content-with-subtitle {
+    margin-bottom: 60px;
+  }
+}
+/*# sourceMappingURL=Careers.css.map */

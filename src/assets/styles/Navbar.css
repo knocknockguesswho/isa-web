@@ -1,0 +1,101 @@
+*:focus {
+  outline: none;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  height: 101.92px;
+  background-color: white;
+  -webkit-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.05);
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: 'row';
+          flex-direction: 'row';
+  z-index: 10;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.navbar-items {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: .1% 140px;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar-item-logo-container {
+  -webkit-box-flex: 2.5;
+      -ms-flex: 2.5;
+          flex: 2.5;
+}
+
+.navbar-item-navigation-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: '100%';
+}
+
+@media screen and (max-width: 1400px) {
+  .navbar {
+    width: 100vw;
+    height: 101.92px;
+    background-color: white;
+    -webkit-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.05);
+            box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.05);
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: 'row';
+            flex-direction: 'row';
+    z-index: 10;
+  }
+  .navbar-items {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: .1% 80px;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  .navbar-item-logo-container {
+    -webkit-box-flex: 2.5;
+        -ms-flex: 2.5;
+            flex: 2.5;
+  }
+  .navbar-item-logo-container img {
+    width: 100px;
+  }
+  .navbar-item-navigation-container {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    height: '100%';
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .navbar-item-navigation-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-item-navigation-container {
+    display: none;
+  }
+  .navbar-items {
+    padding: .1% 50px;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */
